@@ -1,0 +1,9 @@
+def get_nod(a, b):
+    while a != b:
+        if a > b:
+            a -= b
+        else:
+            b -= a
+    return a
+r = get_nod(int(input()), int(input()))
+print(r)
